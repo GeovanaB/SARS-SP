@@ -1,3 +1,3 @@
-Número do melhor trial: 178
-Parâmetros do melhor trial: {'lags': 25, 'lags_past_covariates': 13, 'max_depth': 5, 'n_estimators': 161, 'subsample': 0.8693057935406849, 'learning_rate': 0.02366081458313138}
-Mae no teste:281.6568927080345.
+Número do melhor trial: 349
+Parâmetros do melhor trial: {'lags': 7, 'lags_past_covariates': 29, 'max_depth': 4, 'n_estimators': 443, 'subsample': 0.6515319628263844, 'learning_rate': 0.01380322374677993}
+Mae no teste:282.9763030776833.

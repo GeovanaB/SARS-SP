@@ -1,3 +1,0 @@
-Número do melhor trial: 333
-Parâmetros do melhor trial: {'lags': 26, 'lags_past_covariates': 1, 'n_estimators': 44, 'min_samples_split': 15, 'min_samples_leaf': 2, 'criterion': 'absolute_error', 'usar_max_depth': False}
-Mae no teste:132.26202189578714.

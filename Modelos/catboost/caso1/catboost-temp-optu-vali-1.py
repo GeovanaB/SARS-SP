@@ -41,28 +41,29 @@ target_teste = series_target[tamanho_treino + 1:len(series_target)]
 covariates_treino = series_covariates[0:tamanho_treino]
 covariates_teste = series_covariates[tamanho_treino +1 : len(series_covariates)]
 
-# Função p/ validação cruzada
-def val_cruzada(modelo,folds,target_treino, covariates):
-    n_segments = folds * 2
-    segment_len = round(len(target_treino) // n_segments)
+# Funcao p/ validacao cruzada
+def val_cruzada(modelo, folds, target_treino, covariates):
+    total_len = len(target_treino)
 
-    if segment_len < 1:
-        print(f"Error: Dataset length ({len(target_treino)}) is too short for {folds} non-overlapping windows.")
-        print("Please reduce n_windows or use a larger dataset.")
+    train_ratio = 0.9
+    test_ratio = 0.1
+
+    train_len = round((total_len * train_ratio) / folds)
+    test_len = round((total_len * test_ratio) / folds)
+
+    if train_len < 1 or test_len < 1:
+        print(f"Erro: serie muito curta ({total_len}) para {folds} folds com proporcao 90/10.")
         return
 
-    train_len = segment_len
-    test_len = segment_len
-    rmses = []
+    maes = []
 
     for i in range(folds):
         start_idx = i * (train_len + test_len)
         train_end_idx = start_idx + train_len
         test_end_idx = train_end_idx + test_len
 
-        # Ensure the last window goes to the end of the data if there's a remainder
         if i == folds - 1:
-            test_end_idx = len(target_treino)
+            test_end_idx = total_len
 
         train = target_treino[start_idx:train_end_idx]
         test = target_treino[train_end_idx:test_end_idx]
@@ -71,10 +72,13 @@ def val_cruzada(modelo,folds,target_treino, covariates):
         modelo.fit(train, past_covariates = covariates_treino)
 
         pred = modelo.predict(len(test), past_covariates = covariates)
-        rmse = mean_absolute_error(pred.values(), test.values())
-        rmses.append(rmse)
+        mae = mean_absolute_error(pred.values(), test.values())
+        maes.append(mae)
 
-    return sum(rmses)/len(rmses), rmses
+        if test_end_idx >= total_len:
+            break
+
+    return sum(maes)/len(maes), maes 
  
 
 #Otimização de hiperparâmetros
