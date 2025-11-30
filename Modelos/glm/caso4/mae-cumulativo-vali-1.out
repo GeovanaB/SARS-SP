@@ -1,0 +1,22 @@
+Colunas disponíveis no dataset:
+['Unnamed: 0', 'CO(Monóxido de Carbono) - ppm', 'MP10(Partículas Inaláveis) - µg/m3', 'MP2.5(Partículas Inaláveis Finas) - µg/m3', 'NO(Monóxido de Nitrogênio) - µg/m3', 'NO2(Dióxido de Nitrogênio) - µg/m3', 'NOx(Óxidos de Nitrogênio) - ppb', 'O3(Ozônio) - µg/m3', 'SO2(Dióxido de Enxofre) - µg/m3', 'Data', 'Temperatura (°C)', 'Temperatura Ponto Orvalho (°C)', 'Umidade Relativa (%)', 'Sensação Térmica (°C)', 'Velocidade do Vento (Nós)', 'Casos Diários Cumulativos']
+
+Coluna 'Unnamed: 0' removida com sucesso.
+Coluna target identificada: 'Casos Diários Cumulativos'
+Coluna de data identificada: 'Data'
+
+Features identificadas (13): ['CO(Monóxido de Carbono) - ppm', 'MP10(Partículas Inaláveis) - µg/m3', 'MP2.5(Partículas Inaláveis Finas) - µg/m3', 'NO(Monóxido de Nitrogênio) - µg/m3', 'NO2(Dióxido de Nitrogênio) - µg/m3']...
+
+Numero do melhor trial: 370
+Parametros do melhor trial: {'lags': 1, 'lags_past_covariates': 26, 'power': 0.6763529238391676, 'alpha': 0.3693142111085387, 'link': 'identity', 'max_iter': 728}
+
+==================================================
+MÉTRICAS DE DESEMPENHO NO CONJUNTO DE TESTE
+==================================================
+MAE (Mean Absolute Error): 1878356639021.8564
+RMSE (Root Mean Squared Error): 5223618662550.5156
+MAPE (Mean Absolute Percentage Error): 129148764.90%
+==================================================
+
+
+Modelo, folds e métricas salvos com sucesso!

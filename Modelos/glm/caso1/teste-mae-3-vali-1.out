@@ -1,0 +1,161 @@
+Colunas disponíveis no dataset:
+['Unnamed: 0.1', 'Unnamed: 0', 'CO(Monóxido de Carbono) - ppm', 'MP10(Partículas Inaláveis) - µg/m3', 'MP2.5(Partículas Inaláveis Finas) - µg/m3', 'NO(Monóxido de Nitrogênio) - µg/m3', 'NO2(Dióxido de Nitrogênio) - µg/m3', 'NOx(Óxidos de Nitrogênio) - ppb', 'O3(Ozônio) - µg/m3', 'SO2(Dióxido de Enxofre) - µg/m3', 'Data', 'Casos Diários', 'Temperatura (°C)', 'Temperatura Ponto Orvalho (°C)', 'Umidade Relativa (%)', 'Sensação Térmica (°C)', 'Velocidade do Vento (Nós)']
+
+Coluna 'Unnamed: 0' removida com sucesso.
+Coluna 'Unnamed: 0.1' removida com sucesso.
+Coluna target identificada: 'Casos Diários'
+Coluna de data identificada: 'Data'
+
+Features identificadas (13): ['CO(Monóxido de Carbono) - ppm', 'MP10(Partículas Inaláveis) - µg/m3', 'MP2.5(Partículas Inaláveis Finas) - µg/m3', 'NO(Monóxido de Nitrogênio) - µg/m3', 'NO2(Dióxido de Nitrogênio) - µg/m3']...
+
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+[AVISO] Erro numérico ignorado: Input X contains infinity or a value too large for dtype('float64').
+Numero do melhor trial: 334
+Parametros do melhor trial: {'lags': 7, 'lags_past_covariates': 27, 'power': 0.9442554112265633, 'alpha': 0.0029469219241323678, 'link': 'identity', 'max_iter': 876}
+
+==================================================
+MÉTRICAS DE DESEMPENHO NO CONJUNTO DE TESTE
+==================================================
+MAE (Mean Absolute Error): 414221360510583577772032.0000
+RMSE (Root Mean Squared Error): 2099864152673678753005568.0000
+MAPE (Mean Absolute Percentage Error): 5674238011781717438758912.00%
+==================================================
+
+
+Modelo, folds e métricas salvos com sucesso!
